@@ -18,9 +18,4 @@ pipeline {
             }
         }
     }
-    post {
-        failure {
-            echo "failure"
-        }
-    }
 }
